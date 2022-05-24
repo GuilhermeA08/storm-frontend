@@ -1,0 +1,148 @@
+.corpo{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.topo{
+    background-image: url("../../assets/images/topo1.png");
+    background-position: 0px -250px;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+.imagen-principal{
+    position: absolute;
+    width: 605px;
+    height: 406px;
+    left: 29px;
+    top: 324px;
+    
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.imagen-principal img{
+    position: relative;
+    width: 502px;
+    height: 335px;
+    top: 30px;
+    left: 50px;
+    
+}
+
+.imagens-secundarias{
+    position: absolute;
+    height: 110px;
+    left: 29px;
+    top: 739px;
+
+}
+
+.imagens-secundarias img{
+    position: relative;
+    width: 114px;
+    height: 70px;
+
+    top: 20px;
+    border: 2px solid #000000;
+    box-sizing:content-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 12px;
+
+}
+
+.info-comprar{
+    position: absolute;
+    width: 700px;
+    height: 539px;
+    left: 714px;
+    top: 310px;
+}
+
+.info-comprar h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 40px;
+}
+
+.info-comprar h2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #00A1AB;
+}
+
+.info-comprar h3{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #00C489;
+}
+
+.info-comprar img{
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.adicionar-carrinho{
+    margin-top: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.comprar-agora{
+    margin-top: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.descricao{
+    border-top: 5px solid #00A1AB;
+}
+
+.descricao h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    color: #00A1AB;
+}
+
+.descricao h3{
+    margin-left: 20px;
+    width: 494px;
+    height: 248px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: justify;
+    color: #000000;
+    border-right: 5px solid #00A1AB;
+    padding-right: 20px;
+}

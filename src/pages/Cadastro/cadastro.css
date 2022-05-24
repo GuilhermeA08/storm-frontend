@@ -1,0 +1,124 @@
+/*-----Geral-----*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Cubos;
+    src: url(../../assets/fonts/Cubos.woff);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../../assets/fonts/Quicksand_Book.woff);
+}
+
+/*-----Login-----*/
+.corpoCadastro{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.right{
+    width: 55%;
+    height: 100%;
+    background-image: url(../../assets/images/fundo\ login.png);
+    background-size: cover;
+}
+
+.corpoCadastro .left{
+    width: 45%;
+    height: 100%;
+}
+
+.corpoCadastro .left .formulario{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.corpoCadastro .left .formulario h1{
+    font-family: Cubos;
+    font-size: 50px;
+}
+
+.corpoCadastro .left .formulario h6{
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.corpoCadastro .left .formulario .areaFormulario{
+    background-color: #fff;
+    width: 80%;
+    height: 80%;
+    border-radius: 16px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.corpoCadastro .left .formulario .areaFormulario h1{
+    font-family: Quicksand;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.corpoCadastro .left .formulario .areaFormulario h1 strong{
+    color: #00c389;
+}
+
+.corpoCadastro .left .formulario .areaFormulario .nome label, 
+.corpoCadastro .left .formulario .areaFormulario .sobrenome label, 
+.corpoCadastro .left .formulario .areaFormulario .cpf label, 
+.corpoCadastro .left .formulario .areaFormulario .email label, 
+.corpoCadastro .left .formulario .areaFormulario .senha label{
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.corpoCadastro .left .formulario .areaFormulario .nome, 
+.corpoCadastro .left .formulario .areaFormulario .sobrenome, 
+.corpoCadastro .left .formulario .areaFormulario .cpf,
+.corpoCadastro .left .formulario .areaFormulario .email, 
+.corpoCadastro .left .formulario .areaFormulario .senha{
+    width: 75%;
+}
+
+.corpoCadastro .left .formulario .areaFormulario  input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.corpoCadastro .left .formulario .areaFormulario .botao{
+    background-color: #041421;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Quicksand;
+    cursor: pointer;
+}
+
+.corpoCadastro .left .formulario .areaFormulario .botao .Link{
+    color: #fff;
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 20px;
+}

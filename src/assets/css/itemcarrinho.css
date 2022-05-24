@@ -1,0 +1,33 @@
+.imageProduto {
+  width: 200px;
+  border: 2px solid black;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand_Book.woff);
+}
+.descricaoProduto {
+  color: black;
+  width: 100%;
+}
+
+.Produto {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bottomProduto {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 350px;
+}
+
+.bottomProduto-img {
+  width: 25px;
+  cursor: pointer;
+}

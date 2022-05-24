@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../../assets/fonts/Quicksand_Book.woff);
+}
+
+.cabecalho{
+    background-image: url('../../assets/images/topo1.png');
+    height: 600px;
+    display: flex;
+}
+
+.cabecalho h1{
+    margin-left: 100px;
+    padding-top: 100px;
+    font-size: 34px;
+    font-family: Quicksand;
+    color: white;
+}
+
+.cabecalho h2{
+    margin-left: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    color: #042630;
+}
+
+.cabecalho button{
+    background-color: #042630;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Quicksand;
+    color: white;
+    cursor: pointer;
+}
+
+.cabecalho2{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+}
+
+.cabecalho2 h1{
+    margin-left: 220px;
+    font-size: 34px;
+    font-family: Quicksand;
+    color: black;
+    text-align: center;
+}
+
+.cabecalho2 h2{
+    margin-left: 220px;
+    font-size: 20px;
+    font-family: Quicksand;
+    color: #042630;
+    text-align: center;
+}
+
+.principal{
+    margin-bottom: 50px;
+}
+
+.principal h1{
+    padding: 10px;
+    background-color: #042630;
+    font-size: 34px;
+    font-family: Quicksand;
+    color: white;
+}

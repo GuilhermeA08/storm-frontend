@@ -1,0 +1,35 @@
+/*-----Geral-----*/
+*{
+    margin: o;
+    padding: 0;
+}
+
+/*-----Carousel-----*/
+.carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    height: 320px;
+    flex: none;
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.botoes{
+    width: 100%;
+    text-align: center;
+}
+
+.botoes button{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+
+.botoes button:first-child img{
+    transform: rotate(180deg);
+}

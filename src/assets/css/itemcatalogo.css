@@ -1,0 +1,74 @@
+/*-----Geral-----*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand_Book.woff);
+}
+
+/*-----Item-----*/
+.item{
+    width: 212px;
+    height: 260px;
+    background: #D0D6D6;
+    margin: 8px;
+    padding: 10px;
+    font-family: Quicksand;
+    border: 0.5px solid #041421;
+    border-radius: 16px;
+
+
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.item:hover{
+    -webkit-transform: translateY(-8px);
+     -moz-transform: translateY(-8px);
+     -ms-transform: translateY(-8px);
+     -o-transform: translateY(-8px);
+     transform: translateY(-8px);
+ }
+
+.item .imagem{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 45px;
+    cursor:pointer;
+}
+
+.item .nome {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -45px;
+}
+
+.item .preco{
+    font-size: 20px;
+}
+
+.item .frete{
+    color: #00C389;;
+}
+
+.item .botao{
+    background-color: #041421;
+    border-radius: 20px;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    margin: 10px auto;
+    cursor: pointer;
+}
